@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+
+body{
+	background-color: #f8f9fa;
+	width: aut0;
+	font-family: 'Titillium Web', sans-serif;
+}
+.form-page{
+	background-color: #f8f9fa;
+	border: 1px solid #007bff;
+	border-radius: 10px;
+	padding: 25px 0px 15px;
+	width: 50%;
+	margin: 5% auto;
+	margin-bottom: 10%;
+}
+
+form{
+	text-align: center;
+}
+
+h2{
+	font-size: 3em;
+	margin: auto;
+	color: #343a40;
+}
+.dropbtn{
+	background-color: inherit;
+	outline: none;
+	border: none;
+}
+
+.hint{
+	text-align: center;
+	margin: 10px auto 10px;
+}
+.full-name input{
+	width: 25%;
+}
+.contact-info input{
+	width: 25%;
+}
+.company-info input{
+  width: 50%;
+}
+.username input{
+  width: 50%;
+}
+
+
+input {
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	left: 25%
+	padding: 10px 5px;
+	margin: 10px 0;
+	font-size: 1em;
+	width: 50%;		
+}
+
+.user-input {
+	border-style: inset;
+	background-color: #FAFAF9;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	height: 50px;	
+}
+
+.user-input:active{
+	border-color:#007bff;
+}
+
+.registration-page-heading{
+	text-align: center;	
+}
+
+.registration-page-heading p{
+	color:#343a40;
+	margin: 10px auto;
+	position: relative;
+	top: 10px;
+}
+
+.forgot-password-page-heading{
+	text-align: center;	
+}
+.forgot-password-page-heading p{
+	color:#343a40;
+	margin: 10px auto;
+}
+
+.user-password input{
+	width: 25%;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.login-input {
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	padding: 10px 5px;
+	margin: 10px 0;
+	width: 50%;
+}
+#next-button{
+	font-size: 2em;
+	padding: 0 4px;
+	margin-top: 12px;
+}
+
+#update-password{
+	width: 50%;
+	font-size: 2em;
+	margin-top: 12px;
+}
+#login{
+	width: 50%;
+	font-size: 2em;
+	margin-top: 12px;
+}
+.login-page p{
+	text-align: center;
+}
+
+.privacy-acknowledgement label{
+	position: relative;
+
+}
+#register{
+	width: 54%;
+	font-size: 2em;
+}
+a {
+	color: #007bff;
+}
+a:visted{
+	color:#0039cc;
+}
+.sign-in-link{
+	text-align: center;
+}
+
+
+
+
+

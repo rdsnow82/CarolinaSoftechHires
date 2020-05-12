@@ -1,0 +1,148 @@
+@charset "utf-8";
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body, html {
+  height: 100%;
+	width: auto;
+	background-color: #f8f9fa;	
+}
+/*Heading Styles*/
+.intro-heading{
+  height: 100%; 
+  overflow: hidden;
+}
+.intro-heading img{
+  max-width: 100%;
+  position: relative;
+  top: -130px;
+	filter: brightness(75%) blur(1px);
+}
+.intro-section-text {
+	position: absolute;
+	left: 16px;
+	color: #f8f9fa;
+	top: 380px;
+}
+.intro-heading h2 {
+	font-size: 8em;
+}
+.intro-heading h4 {
+	font-size: 2em;
+	position: relative;
+}
+.intro-heading p{
+	font-size: 2em;
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+
+}
+/*Home Page Sections*/
+.home-page-sections {
+	height: 100%;
+	display: flex;
+	bottom: 50px;
+	position: relative;
+	margin-top: 10px;
+}
+.section{
+	float: left;
+	padding: 40px; /*(Line Updated)*/
+}
+.trending-jobs-section{
+	flex: 65%;
+	box-sizing:border-box;
+}
+.insight-section{
+	flex: 35%;
+}
+.home-page-sections h3{ /*(Section Updated)*/
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;	
+	background-color: #007bff;
+}
+
+/*Insight Section (Updated)*/
+.article {
+	border: 2px solid #ccc;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px 5px;
+	max-width: 100%;
+	max-height: 120px;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.article h4{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.article img{
+	float: left;
+	margin-right: 20px;
+	border-radius: 5%;
+	border: 1px solid #6c757d;
+	width: 100px;
+}
+.article::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*Trending Jobs Section (Updated)*/
+#container {
+  position: relative;
+  width: 100%;
+}
+.carousel-caption{
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 10px;
+}
+
+.carousel-caption h5{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#image {
+  display: block;
+  max-height: 750px;
+	min-height: 750px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text a{
+	color: #0039cc;
+}
